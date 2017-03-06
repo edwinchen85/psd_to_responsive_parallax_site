@@ -34,6 +34,14 @@ h3 {
 
 .secondary-dark-blue { background-color: #34495e; }
 
+.secondary-dark-blue-bg { background-color: #34495e; }
+
 .secondary-sky-blue { background-color: #2d82d8; }
 
 .secondary-sky-blue-bg { background-color: #2d82d8; }
+
+a:focus { outline: 0; }
+
+ul { list-style: none; }
+
+ul li { display: inline-block; }
