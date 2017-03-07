@@ -57,3 +57,5 @@ ul li { display: inline-block; }
 .bold { font-weight: bold; }
 
 .center { text-align: center; }
+
+.animation { opacity: 0; }
