@@ -135,4 +135,7 @@ $(document).ready(function() {
     
   });
 
+  /* smooth scrolling */
+  $('#menu a').smoothScroll();
+
 });
