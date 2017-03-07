@@ -67,13 +67,31 @@
     margin-right: 0px;
     margin-left: 0px;
   }
-  .portfolio-carousel .portfolio-nav li { margin-right: 0px; }
+
+  /* team responsive styles */
+  .team {
+    background: none;
+    background-color: #eca535;
+  }
+  .team-carousel h3 { font-size: 14px; }
+  .team .inner-content { width: 180px; height: 160px; }
+  .team-carousel li {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .team-carousel p.description { display: none; }
 }
 
 @media screen and (max-width: 800px) {
+  /* portfolio styles */
   .portfolio-carousel h3 { font-size: 12px; }
   .portfolio .inner-content { width: 160px; height: 140px; }
   .portfolio-carousel p { font-size: 12px; }
+
+  /* team styles */
+  .team-carousel h3 { font-size: 12px; }
+  .team .inner-content { width: 160px; height: 140px; }
+  .team-carousel p { font-size: 12px; }
 }
 
 @media screen and (max-width: 550px) {
