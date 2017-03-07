@@ -98,6 +98,8 @@
     background: #36767a;
   }
 
+  /* footer */
+  footer { text-align: center; }
 }
 
 @media screen and (max-width: 800px) {
