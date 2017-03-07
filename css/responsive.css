@@ -69,10 +69,6 @@
   }
 
   /* team responsive styles */
-  .team {
-    background: none;
-    background-color: #eca535;
-  }
   .team-carousel h3 { font-size: 14px; }
   .team .inner-content { width: 180px; height: 160px; }
   .team-carousel li {
@@ -86,6 +82,11 @@
     background: none;
     background-color: #0d1722;
   }
+
+  /* blog section */
+  .blog { text-align: center; }
+
+  .blog img { margin: 0 auto; }
 }
 
 @media screen and (max-width: 800px) {
