@@ -34,11 +34,11 @@ h3 {
 
 .primary-bg { background-color: #e74c3c; }
 
-.secondary-dark-blue { background-color: #34495e; }
+.secondary-dark-blue { color: #34495e; }
 
 .secondary-dark-blue-bg { background-color: #34495e; }
 
-.secondary-sky-blue { background-color: #2d82d8; }
+.secondary-sky-blue { color: #2d82d8; }
 
 .secondary-sky-blue-bg { background-color: #2d82d8; }
 
@@ -53,3 +53,5 @@ ul li { display: inline-block; }
 .section-padding { padding: 56px 0px; }
 
 .white { color: #fff; }
+
+.bold { font-weight: bold; }

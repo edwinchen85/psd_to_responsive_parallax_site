@@ -29,13 +29,14 @@ $(document).ready(function() {
 
   });
 
-  $('.portfolio-carousel').carouFredSel({
+
+  $('.team-carousel').carouFredSel({
 
     responsive: true,
     width: '100%',
     circular: true,
-    prev: '#prev',
-    next: '#next',
+    prev: '#team-prev',
+    next: '#team-next',
     scroll: {
       items: 1,
       duration: 500,
