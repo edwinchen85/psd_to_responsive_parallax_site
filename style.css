@@ -99,7 +99,7 @@ background-size: 100% 100%; }
   color: #555;
 }
 
-.services-header, .portfolio-header, .team-header, .testimonials-header {
+.services-header, .portfolio-header, .team-header, .testimonials-header, .blog-header {
   margin-bottom: 42px;
   text-align: center;
 }
@@ -349,3 +349,14 @@ blockquote:after {
 
 .testipager li a { color: #fff; }
 .testipager li.selected a { color: #e74c3c; }
+
+/* blog section */
+.blog b.date { color: #333; }
+
+.blog h3 a {
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+.blog h3 a:hover { color: #e74c3c; }
