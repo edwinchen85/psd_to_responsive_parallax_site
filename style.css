@@ -99,7 +99,7 @@ background-size: 100% 100%; }
   color: #555;
 }
 
-.services-header, .portfolio-header, .team-header {
+.services-header, .portfolio-header, .team-header, .testimonials-header {
   margin-bottom: 42px;
   text-align: center;
 }
@@ -284,3 +284,68 @@ ul.member-social-links li i.fa-twitter {
 ul.member-social-links li i.fa-linkedin {
   background-color: #007bb6;
 }
+
+/* testimonial section */
+.testimonials {
+  /*background-color: #0c1622;*/
+  background: url(img/testi-bg.png);
+  background-attachment: fixed;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.testimonial-carousel li {
+  text-align: center;
+  margin: 0 200px;
+}
+
+blockquote {
+  border: none;
+  line-height: 1.5em;
+  position: relative;
+  font-style: 14px;
+  color: #fff;
+  display: inline-block;
+}
+
+blockquote:before {
+  position: absolute;
+  content: "\f10d";
+  top: -5px;
+  left: -20px;
+  font-family: fontAwesome;
+}
+
+blockquote:after {
+  position: absolute;
+  content: "\f10e";
+  bottom: -5px;
+  right: -20px;
+  font-family: fontAwesome;
+}
+
+.testimonial-carousel li img {
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.testimonial-carousel li p.name {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.testimonial-carousel li p.position {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.testipager li { margin-right: 5px; }
+.testipager li:last-child { margin-right: 0; }
+
+.testipager li a { color: #fff; }
+.testipager li.selected a { color: #e74c3c; }
